@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>FUHSO | CGPA CALCULATOR</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<header>
+	
+</header>
+<body>
+	<div class="head">
+		FEDERAL UNIVERSITY OF HEALTH SCIENCE.
+		<br>
+		OTUKPO.
+	</div>
+<div class="container">
+		<img src="./images/logo.jpg" class="schoolLogo">
+<br>
+<div class="table">
+<table border="1"
+       cellpadding="5"
+	   cellspacing="5"
+       class="tables"
+	   >
+	<thead id="heading">
+		<tr class="row">
+			<th>S/N</th>
+			<th>Courses</th>
+			<th>Grade Units</th>
+			<th>Grade</th>
+			<th>GP</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="row">
+			<td>1.</td>
+			<td><input type="text"></td>
+			<td><input type="number" id='unit0'></td>
+			<td><input type="text" id='grade0'></td>
+			<td><input type="number" id='result0' disabled></td>
+		</tr>
+		<tr class="row">
+			<td>2.</td>
+			<td><input type="text"></td>
+			<td><input type="number" id='unit1'></td>
+			<td><input type="text" id='grade1'></td>
+			<td><input type="number" id='result1' disabled></td>
+		</tr>
+		<tr class="row">
+			<td>3.</td>
+			<td><input type="text"></td>
+			<td><input type="number" id='unit2'></td>
+			<td><input type="text" id='grade2'></td>
+			<td><input type="number" id='result2' disabled></td>
+		</tr>
+		<tr class="row">
+			<td>4.</td>
+			<td><input type="text"></td>
+			<td><input type="number" id='unit3'></td>
+			<td><input type="text" id='grade3'></td>
+			<td><input type="number" id='result3' disabled></td>
+		</tr>
+		<tr class="row">
+			<td>5.</td>
+			<td><input type="text"></td>
+			<td><input type="number" id='unit4'></td>
+			<td><input type="text" id='grade4'></td>
+			<td><input type="number" id='result4' disabled></td>
+		</tr>
+		<tr class="row">
+			<td>6.</td>
+			<td><input type="text"></td>
+			<td><input type="number" id='unit5'></td>
+			<td><input type="text" id='grade5'></td>
+			<td><input type="number" id='result5' disabled></td>
+		</tr>
+		<tr class="row">
+			<td>7.</td>
+			<td><input type="text"></td>
+			<td><input type="number" id='unit6'></td>
+			<td><input type="text" id='grade6'></td>
+			<td><input type="number" id='result6' disabled></td>
+		</tr>
+		<tr class="row">
+			<td>8.</td>
+			<td><input type="text"></td>
+			<td><input type="number" id='unit7'></td>
+			<td><input type="text" id='grade7'></td>
+			<td><input type="number" id='result7' disabled></td>
+		</tr>
+		<tr class="row">
+			<td>9.</td>
+			<td><input type="text"></td>
+			<td><input type="number" id='unit8'></td>
+			<td><input type="text" id='grade8'></td>
+			<td><input type="number" id='result8' disabled></td>
+		</tr>
+		<tr class="row">
+			<td>10.</td>
+			<td><input type="text"></td>
+			<td><input type="number" id='unit9'></td>
+			<td><input type="text" id='grade9'></td>
+			<td><input type="number" id='result9' disabled></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<br>
+<button onclick="doMath()" id="button">Calculate</button>
+<div id="myComments">
+<p id='res'></p>
+<p id='comment'>NB: The "Courses" field can be ignored. <br>
+	<br>Click the 'calculate' button above after filling necessary fields.</p>
+</div>
+</div>
+</body>
+<footer>
+    <script type="text/javascript" src="script.js"></script>
+</footer>
+</html>

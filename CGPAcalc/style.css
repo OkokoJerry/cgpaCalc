@@ -1,0 +1,109 @@
+body{
+    color:#000;
+	background-image: url(./images/back.avif);
+	margin: 0;
+}
+.head{
+	background-color: #007acc;
+	text-align: center;
+	padding:10px;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	word-spacing: 3px;
+	letter-spacing: 5px;
+}
+table{
+   font-weight: bold;
+   margin: 0 auto;
+   border-collapse: collapse;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+}
+.schoolLogo{
+	height: 100px;
+	width: 100px;
+	margin: 4px 43%;
+}
+table input{
+    background-color: #fff;
+    color:#000;
+	width: 100px;
+}
+p{
+	margin: 3px;
+}
+#res, #comment{
+	text-align: center;
+	display: block;
+	font-weight: bold;
+	margin: 6px auto;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nb{
+	text-align: center;
+	margin: 10px auto;
+}
+table p{
+	width:50px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+	background-color: #164e73;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 4px;
+	padding:10px;
+	margin:auto;
+}
+#myComments{
+	padding:10px;
+	margin: 15px 20%;
+	background-color: #fff;
+	color:#000;
+	box-shadow: 1px 1px 15px #000;
+	float: center;
+	border-radius: 6px;
+}
+th, td{
+	border:2px solid #000;
+	font-weight: bold;
+}
+th{
+	font-family: arial;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+footer{
+	margin-right: 5px;
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+@media (max-width: 700px){
+	*{
+		font-weight: bold;
+	}
+	.head{
+		word-spacing: 1px;
+		letter-spacing: 2px;
+	}
+	.container{
+		font-size: 10px;
+		width: 100%;
+		margin:auto;
+	}
+	.table{
+		width: 90vw;
+		margin:auto;
+	}
+	th, tr, td{
+		padding: 2px 1px;
+	}
+}
